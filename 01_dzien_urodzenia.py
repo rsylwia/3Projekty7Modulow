@@ -2,22 +2,22 @@ import datetime
 import calendar
 
 
-def translate_to_polish(day_names):
-    match day_names:
-        case 'Monday':
-            return 'Poniedziałek'
-        case 'Tuesday':
-            return 'Wtorek'
-        case 'Wednesday':
-            return 'Środa'
-        case 'Thursday':
-            return 'Czwartek'
-        case 'Friday':
-            return 'Piątek'
-        case 'Saturday':
-            return 'Sobota'
-        case 'Sunday':
-            return 'Niedziela'
+# def translate_to_polish(day_names):
+#     match day_names:
+#         case 'Monday':
+#             return 'Poniedziałek'
+#         case 'Tuesday':
+#             return 'Wtorek'
+#         case 'Wednesday':
+#             return 'Środa'
+#         case 'Thursday':
+#             return 'Czwartek'
+#         case 'Friday':
+#             return 'Piątek'
+#         case 'Saturday':
+#             return 'Sobota'
+#         case 'Sunday':
+#             return 'Niedziela'
 
 
 def translate_to_polish_2_way(day_names):
